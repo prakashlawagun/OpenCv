@@ -31,7 +31,7 @@ img1 = img.copy()
 
 data = [img1]
 for i in range(4):
-    img1 = cv2.pyrUp(img1)
+    img1 = cv2.pyrDown(img1)
     data.append(img1)
     cv2.imshow("Result"+str(i),img1)
 

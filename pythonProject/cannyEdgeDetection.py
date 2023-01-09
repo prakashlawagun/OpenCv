@@ -21,7 +21,7 @@ import numpy as np
 # cv2.destroyAllWindows()
 
 
-img = cv2.imread("./Data/side.jpg",0)
+img = cv2.imread("./Data/Stone.jpg",0)
 img = cv2.resize(img,(400,400))
 
 def nothing(x):
