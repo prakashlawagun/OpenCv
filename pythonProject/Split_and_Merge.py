@@ -11,9 +11,9 @@ print("Image type==",type(img))
 
 #Now try to split an image
 b,g,r = cv2.split(img)
-# cv2.imshow("Blue",b)
-# cv2.imshow("Green",g)
-# cv2.imshow("Red",r)
+cv2.imshow("Blue",b)
+cv2.imshow("Green",g)
+cv2.imshow("Red",r)
 
 #Now mixed the channel use merge
 m1 = cv2.merge((r,g,b))
